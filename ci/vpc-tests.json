@@ -1,0 +1,26 @@
+[
+  {
+    "ParameterKey": "AvailabilityZone1",
+    "ParameterValue": "$[taskcat_genaz_1]"
+  },
+  {
+    "ParameterKey": "AvailabilityZone2",
+    "ParameterValue": "$[taskcat_genaz_1]"
+  },
+  {
+    "ParameterKey": "SSHFrom",
+    "ParameterValue": "0.0.0.0/0"
+  },
+  {
+    "ParameterKey": "ELBIngressPort",
+    "ParameterValue": "80"
+  },
+  {
+    "ParameterKey": "AppIngressPort",
+    "ParameterValue": "80"
+  },
+  {
+    "ParameterKey": "SingleNatGateway",
+    "ParameterValue": "true"
+  }
+]

@@ -1,0 +1,15 @@
+---
+global:
+  owner: chrkas@amazon.de
+  qsname: startup-kit-templates
+  s3bucket: chrkas-startup-kit-templates
+  regions:
+    - eu-central-1
+    - eu-west-3
+  reporting: true
+tests:
+  scenario-vpc-2:
+    parameter_input: vpc-tests.json
+    regions:
+      - eu-central-1
+    template_file: vpc.cfn.yml
